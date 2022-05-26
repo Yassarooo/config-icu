@@ -26,6 +26,7 @@ zuul:
       path: /registration/**
       sensitiveHeaders:
     serviceId: registration-service
+    url: https://registration-icu.herokuapp.com/
 
 eureka:
   instance:
