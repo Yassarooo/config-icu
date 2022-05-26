@@ -3,12 +3,6 @@ server:
 
 name: registration
 
-eureka:
-  instance:
-    metadata-map:
-      user.name: ${security.user.name}
-      user.password: ${security.user.password}
-
 spring:
   mail:
     host: smtp.gmail.com

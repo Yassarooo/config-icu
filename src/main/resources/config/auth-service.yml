@@ -6,7 +6,6 @@ management:
     enabled: false
   context-path: /mgmt
 
-
 hystrix:
   command:
     default:
