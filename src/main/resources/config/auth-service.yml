@@ -29,8 +29,6 @@ zuul:
 eureka:
   instance:
     hostname: auth-icu.herokuapp.com
-    prefer-ip-address: false
-    non-secure-port: 443
     health-check-url-path: ${server.context-path}${management.context-path}/health
     status-page-url-path: ${server.context-path}${management.context-path}/info
     metadata-map:

@@ -1,4 +1,7 @@
 eureka:
+  instance:
+    non-secure-port: 80
+    prefer-ip-address: false
   client:
     service-url:
       defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@registry-icu.herokuapp.com/eureka/
