@@ -1,7 +1,7 @@
 eureka:
   instance:
     hostname: localhost
-    prefer-ip-address: true
+    prefer-ip-address: false
   client:
     service-url:
       defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@registry-icu.herokuapp.com/eureka/
