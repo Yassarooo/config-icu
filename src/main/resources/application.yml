@@ -36,3 +36,7 @@ security:
   user:
     name: user
     password: ${CONFIG_SERVER_PASSWORD:password}
+
+jasypt:
+  encryptor:
+    password: jazaradebuggers

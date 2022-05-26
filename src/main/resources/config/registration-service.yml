@@ -13,7 +13,7 @@ spring:
     port: 465
     protocol: smtps
     username: yassarhammami@gmail.com
-    password: mfalrrenjnufcvvo
+    password: ENC(jS0l335mHoWpZk3KyypXKOaf2dRSz/5j+2K7ARd5HeA=)
     properties:
       mail:
         transport:
