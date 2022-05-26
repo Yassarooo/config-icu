@@ -6,6 +6,7 @@ name: registration
 eureka:
   instance:
     hostname: registration-icu.herokuapp.com
+    non-secure-port: 443
     prefer-ip-address: false
 
 spring:
