@@ -25,6 +25,7 @@ zuul:
     registration-service:
       path: /registration/**
       sensitiveHeaders:
+    serviceId: registration-service
 
 eureka:
   instance:
