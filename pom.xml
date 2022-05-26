@@ -16,6 +16,13 @@
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <spring.cloud.version>Dalston.SR4</spring.cloud.version>
+        <spring-boot-admin.version>1.5.4</spring-boot-admin.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
