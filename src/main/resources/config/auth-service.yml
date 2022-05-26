@@ -28,6 +28,8 @@ zuul:
 
 eureka:
   instance:
+    hostname: auth-icu.herokuapp.com
+    prefer-ip-address: false
     health-check-url-path: ${server.context-path}${management.context-path}/health
     status-page-url-path: ${server.context-path}${management.context-path}/info
     metadata-map:
