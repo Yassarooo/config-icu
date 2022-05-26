@@ -47,3 +47,7 @@ spring:
     show-sql: false
     hibernate:
       ddl-auto: update
+
+jasypt:
+  encryptor:
+    password: jazaradebuggers
