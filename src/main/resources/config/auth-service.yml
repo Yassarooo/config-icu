@@ -29,9 +29,9 @@ zuul:
 eureka:
   instance:
     hostname: auth-icu.herokuapp.com
-    health-check-url-path: auth-icu.herokuapp.com/mgmt/health
-    status-page-url-path: auth-icu.herokuapp.com/mgmt/info
+    health-check-url-path: /mgmt/health
+    status-page-url-path: /mgmt/info
     metadata-map:
-      management.context-path: auth-icu.herokuapp.com/mgmt
+      management.context-path: /mgmt
 
 secret: jazaradebuggers
