@@ -35,3 +35,8 @@ eureka:
       management.context-path: /mgmt
 
 secret: jazaradebuggers
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
