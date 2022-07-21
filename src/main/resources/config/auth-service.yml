@@ -25,9 +25,9 @@ zuul:
   ignoredServices: '*'
   routes:
     registration-service:
+      serviceId: registration-service
       path: /registration/**
-      sensitiveHeaders:
-    serviceId: registration-service
+      stripPrefix: false
 
 eureka:
   instance:
