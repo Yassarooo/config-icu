@@ -5,7 +5,7 @@ name: registration
 
 eureka:
   instance:
-    hostname: registration-icu.herokuapp.com
+    hostname: icu-registration.herokuapp.com
 
 spring:
   mail:

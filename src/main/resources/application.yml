@@ -22,7 +22,7 @@ server:
 
 eureka:
   instance:
-    hostname: config-icu.herokuapp.com
+    hostname: icu-config.herokuapp.com
     non-secure-port: 80
     prefer-ip-address: false
     metadata-map:
@@ -30,7 +30,7 @@ eureka:
       user.password: ${security.user.password}
   client:
     service-url:
-      defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@registry-icu.herokuapp.com/eureka/
+      defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@icu-registry.herokuapp.com/eureka/
 
 security:
   user:

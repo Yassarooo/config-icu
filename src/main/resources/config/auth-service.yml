@@ -28,7 +28,7 @@ zuul:
 
 eureka:
   instance:
-    hostname: auth-icu.herokuapp.com
+    hostname: icu-auth.herokuapp.com
     health-check-url-path: /mgmt/health
     status-page-url-path: /mgmt/info
     metadata-map:

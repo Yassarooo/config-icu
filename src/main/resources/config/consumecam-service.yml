@@ -5,7 +5,7 @@ name: consumecam
 
 eureka:
   instance:
-    hostname: consumecam-icu.herokuapp.com
+    hostname: icu-consumecam.herokuapp.com
     metadata-map:
       user.name: ${security.user.name}
       user.password: ${security.user.password}
