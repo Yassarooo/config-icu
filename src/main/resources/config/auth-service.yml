@@ -4,7 +4,10 @@ server:
 management:
   security:
     enabled: false
-  context-path: /mgmt
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 
 hystrix:
   command:
@@ -29,9 +32,7 @@ zuul:
 eureka:
   instance:
     hostname: icu-auth.herokuapp.com
-    health-check-url-path: /mgmt/health
-    status-page-url-path: /mgmt/info
-    metadata-map:
-      management.context-path: /mgmt
+    health-check-url-path: /actuator/health
+    status-page-url-path: /actuator/info
 
 secret: jazaradebuggers
