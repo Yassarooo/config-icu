@@ -4,7 +4,7 @@ eureka:
     prefer-ip-address: false
   client:
     service-url:
-      defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@icu-registry.herokuapp.com/eureka/
+      defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@icu-registry.herokuapp.com
 
 management:
   security:
