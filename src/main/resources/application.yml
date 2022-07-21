@@ -12,6 +12,10 @@ spring:
     username: kdmffedc
     password: ENC(CsUZ58Eb0zuABi41WRxVEXYgaqYIwxFMLJMYQRXzBQAL/Koi08Njxv80yHZgJdqR)
     virtual-host: kdmffedc
+  security:
+    user:
+      name: user
+      password: ${CONFIG_SERVER_PASSWORD:password}
 
 management:
   security:
@@ -32,10 +36,6 @@ eureka:
     service-url:
       defaultZone: https://user:${REGISTRY_SERVER_PASSWORD:password}@icu-registry.herokuapp.com/eureka/
 
-security:
-  user:
-    name: user
-    password: ${CONFIG_SERVER_PASSWORD:password}
 
 jasypt:
   encryptor:
