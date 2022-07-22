@@ -44,9 +44,9 @@ spring:
       skip-pattern: "^org.*HystrixStreamTask$"
 
   datasource:
-    url: jdbc:mysql://sql11.freemysqlhosting.net/sql11507946?createDatabaseIfNotExist=true
-    username: sql11507946
-    password: ENC(gILFyJzsLi6aUnMwcbSt6jHGecuT91L8)
+    url: jdbc:mysql://sql8.freemysqlhosting.net/sql8507958?createDatabaseIfNotExist=true
+    username: sql8507958
+    password: ENC(IijcfwN/lwh/HsKlpYNPxVtPUASm6Z83)
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
