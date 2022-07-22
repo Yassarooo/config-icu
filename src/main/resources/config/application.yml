@@ -44,7 +44,7 @@ spring:
       skip-pattern: "^org.*HystrixStreamTask$"
 
   datasource:
-    url: jdbc:mysql://sql8.freemysqlhosting.net/sql8507958?createDatabaseIfNotExist=true&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf-8&amp;amp;autoReconnect=true
+    url: jdbc:mysql://sql8.freemysqlhosting.net/sql8507958?createDatabaseIfNotExist=true
     username: sql8507958
     password: ENC(IijcfwN/lwh/HsKlpYNPxVtPUASm6Z83)
     driver-class-name: com.mysql.jdbc.Driver
