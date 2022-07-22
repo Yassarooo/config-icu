@@ -31,8 +31,6 @@ zuul:
 
 eureka:
   instance:
-    hostname: icu-auth.herokuapp.com
-    health-check-url-path: /actuator/health
-    status-page-url-path: /actuator/info
+    hostname: auth-icu.herokuapp.com
 
 secret: jazaradebuggers

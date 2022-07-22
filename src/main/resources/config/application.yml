@@ -1,5 +1,7 @@
 eureka:
   instance:
+    health-check-url-path: /actuator/health
+    status-page-url-path: /actuator/info
     non-secure-port: 80
     prefer-ip-address: false
   client:
