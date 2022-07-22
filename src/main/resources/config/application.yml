@@ -49,6 +49,7 @@ spring:
     password: ENC(IijcfwN/lwh/HsKlpYNPxVtPUASm6Z83)
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
+    generate-ddl: true
     database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: true
     hibernate:
