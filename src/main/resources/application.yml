@@ -2,7 +2,7 @@ spring:
   boot:
     admin:
       client:
-        url: ${EUREKA_URI:https://admin:${ADMIN_SERVER_PASSWORD:admin}@icu-monitor.herokuapp.com}
+        url: https://icu-monitor.herokuapp.com
   profiles:
     active: native
   cloud:
