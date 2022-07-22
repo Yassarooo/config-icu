@@ -22,6 +22,10 @@ spring:
       password: ${CONFIG_SERVER_PASSWORD:password}
 
 management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
   security:
     enabled: false
 
