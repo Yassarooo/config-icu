@@ -19,7 +19,6 @@ zuul:
     registration-service:
       serviceId: registration-service
       path: /registration/**
-      stripPrefix: false
 
 eureka:
   instance:
