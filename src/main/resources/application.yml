@@ -1,6 +1,7 @@
 spring:
   boot:
     admin:
+      api-path: /instances
       client:
         url: https://icu-monitor.herokuapp.com
   profiles:
