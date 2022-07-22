@@ -1,14 +1,6 @@
 server:
   port: ${PORT:5000}
 
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
 hystrix:
   command:
     default:
