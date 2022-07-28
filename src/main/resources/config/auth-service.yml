@@ -40,3 +40,15 @@ spring:
     ## File Storage Properties
     # All files uploaded through the REST API will be stored in this directory
     file.upload-dir: /app
+
+  datasource:
+    url: jdbc:mysql://sql8.freemysqlhosting.net/sql8507958?createDatabaseIfNotExist=true
+    username: sql8507958
+    password: ENC(IijcfwN/lwh/HsKlpYNPxVtPUASm6Z83)
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
