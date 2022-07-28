@@ -42,13 +42,13 @@ spring:
     file.upload-dir: /app
 
   datasource:
-    url: jdbc:mysql://sql8.freemysqlhosting.net/sql8507958?createDatabaseIfNotExist=true
-    username: sql8507958
-    password: ENC(IijcfwN/lwh/HsKlpYNPxVtPUASm6Z83)
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:postgresql://ec2-44-206-214-233.compute-1.amazonaws.com:5432/d4m6dlvhs1172j?createDatabaseIfNotExist=true
+    username: kwjckzrpftvxzb
+    password: ENC(zYWvfmhbRyLlOwfBjVE+rSia2pkWcnQD7p6W8vwJI89LJSvg/oYis2xKUgwzA97w90exGNJD2+71+LFAfhsCU4PAXNcvtPewKTtU750fK5U=)
+    driver-class-name: org.postgresql.Driver
   jpa:
     generate-ddl: true
-    database-platform: org.hibernate.dialect.MySQL55Dialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
       ddl-auto: update
