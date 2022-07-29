@@ -42,7 +42,7 @@ spring:
     file.upload-dir: /app
 
   datasource:
-    url: jdbc:mysql://sql11.freemysqlhosting.net/sql11509525?createDatabaseIfNotExist=true
+      url: jdbc:mysql://sql11.freemysqlhosting.net/sql11509525?createDatabaseIfNotExist=true
       username: sql11509525
       password: ENC(8J7T6o7QUjDLo6L7OLxdJS6UJ8pFQCwm)
       driver-class-name: com.mysql.jdbc.Driver
