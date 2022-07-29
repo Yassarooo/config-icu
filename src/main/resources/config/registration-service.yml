@@ -23,16 +23,17 @@ spring:
           timeout: 20000
 
   datasource:
-      url: jdbc:mysql://sql11.freemysqlhosting.net/sql11509525?createDatabaseIfNotExist=true
-      username: sql11509525
-      password: ENC(8J7T6o7QUjDLo6L7OLxdJS6UJ8pFQCwm)
-      driver-class-name: com.mysql.jdbc.Driver
-    jpa:
-      generate-ddl: true
-      database-platform: org.hibernate.dialect.MySQL55Dialect
-      show-sql: true
-      hibernate:
-        ddl-auto: update
+    url: jdbc:mysql://sql11.freemysqlhosting.net/sql11509525?createDatabaseIfNotExist=true
+    username: sql11509525
+    password: ENC(8J7T6o7QUjDLo6L7OLxdJS6UJ8pFQCwm)
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
 support:
   email: yassarhammami@gmail.com
 
