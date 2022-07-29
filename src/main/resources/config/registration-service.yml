@@ -1,8 +1,6 @@
 server:
   port: ${PORT:8080}
 
-name: registration
-
 eureka:
   instance:
     hostname: registration-icu.herokuapp.com
@@ -24,7 +22,6 @@ spring:
             enable: true
           timeout: 20000
 
-
   datasource:
     url: jdbc:postgresql://ec2-44-206-214-233.compute-1.amazonaws.com:5432/d4m6dlvhs1172j?createDatabaseIfNotExist=true
     username: kwjckzrpftvxzb
@@ -35,8 +32,12 @@ spring:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql: true
       hibernate:
-        ddl-auto: create
-
+        ddl-auto: update
+        default_schema: d4m6dlvhs1172j
+      properties:
+        hibernate:
+          hbm2ddl:
+            auto: update
 support:
   email: yassarhammami@gmail.com
 
