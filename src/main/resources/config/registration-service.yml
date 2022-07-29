@@ -23,13 +23,13 @@ spring:
           timeout: 20000
 
   datasource:
-    url: jdbc:mysql://sql11.freemysqlhosting.net/sql11509525?createDatabaseIfNotExist=true
-    username: sql11509525
-    password: ENC(8J7T6o7QUjDLo6L7OLxdJS6UJ8pFQCwm)
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:postgresql://ec2-44-206-214-233.compute-1.amazonaws.com:5432/dcsac689pnlu7m?createDatabaseIfNotExist=true
+    username: hjbmhcprojlhek
+    password: ENC(NLQtuZRwS3tzNjJNWGiP2Hqm+VjC0Zj9e0I9R2HDAbQgvxKHYwD6n94Gb2XfQhTDKARlx0rtCzb3ZVUhPUUd8yioqDE8xTKgaxrkXB6DvoM=)
+    driver-class-name: org.postgresql.Driver
   jpa:
     generate-ddl: true
-    database-platform: org.hibernate.dialect.MySQL55Dialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
       ddl-auto: update
