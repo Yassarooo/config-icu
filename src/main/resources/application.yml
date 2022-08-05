@@ -11,12 +11,6 @@ spring:
       server:
         native:
           searchLocations: classpath:config/
-  rabbitmq:
-    host: woodpecker.rmq.cloudamqp.com
-    port: 5672
-    username: kdmffedc
-    password: ENC(CsUZ58Eb0zuABi41WRxVEXYgaqYIwxFMLJMYQRXzBQAL/Koi08Njxv80yHZgJdqR)
-    virtual-host: kdmffedc
   security:
     user:
       name: user
